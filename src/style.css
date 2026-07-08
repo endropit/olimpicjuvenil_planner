@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#eef2f7;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+header{
+    background:#004B9B;
+    color:white;
+    padding:20px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.logo{
+    width:80px;
+    height:80px;
+    background:white;
+    border-radius:50%;
+    object-fit:contain;
+}
+
+.card{
+    margin:30px auto;
+    max-width:700px;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+h2{
+    margin-bottom:15px;
+}
+.cabecera{
+    background:#004B9B;
+    color:white;
+    padding:20px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.logo{
+    width:70px;
+    height:70px;
+    background:white;
+    border-radius:50%;
+    object-fit:contain;
+}
+
+#calendar{
+    max-width:1100px;
+    margin:30px auto;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+}
