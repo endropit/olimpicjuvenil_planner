@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "⚽ Olímpic - Llosa",
+    "start": "2026-08-07T20:00:00",
+    "rival": "Llosa",
+    "escudo": "llosa.png",
+    "campo": "La Murta",
+    "direccion": "Xàtiva"
+  },
+  {
+    "id": 2,
+    "title": "⚽ Olímpic - Alzira",
+    "start": "2026-08-14T20:00:00",
+    "rival": "Alzira",
+    "escudo": "alzira.png",
+    "campo": "La Murta",
+    "direccion": "Xàtiva"
+  }
+]

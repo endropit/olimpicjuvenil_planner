@@ -1,64 +1,137 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
 body{
-    background:#eef2f7;
-    font-family:Arial,Helvetica,sans-serif;
+  font-family:Arial,Helvetica,sans-serif;
+  background:#f3f5f7;
+  color:#222;
 }
 
-header{
-    background:#004B9B;
-    color:white;
-    padding:20px;
-    display:flex;
-    align-items:center;
-    gap:20px;
-}
-
-.logo{
-    width:80px;
-    height:80px;
-    background:white;
-    border-radius:50%;
-    object-fit:contain;
-}
-
-.card{
-    margin:30px auto;
-    max-width:700px;
-    background:white;
-    padding:25px;
-    border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,.15);
-}
-
-h2{
-    margin-bottom:15px;
-}
 .cabecera{
-    background:#004B9B;
-    color:white;
-    padding:20px;
-    display:flex;
-    align-items:center;
-    gap:20px;
+  background:#004a99;
+  color:white;
+  display:flex;
+  align-items:center;
+  gap:20px;
+  padding:20px;
+  box-shadow:0 3px 10px rgba(0,0,0,.15);
 }
 
 .logo{
-    width:70px;
-    height:70px;
-    background:white;
-    border-radius:50%;
-    object-fit:contain;
+  width:70px;
+  height:70px;
+  object-fit:contain;
 }
 
-#calendar{
-    max-width:1100px;
-    margin:30px auto;
-    background:white;
-    padding:20px;
-    border-radius:15px;
+.titulo h1{
+  font-size:30px;
+}
+
+.titulo p{
+  opacity:.85;
+}
+
+.next-match{
+  width:min(900px,95%);
+  margin:25px auto;
+}
+
+.next-match h2{
+  margin-bottom:15px;
+}
+
+.match-card{
+
+  background:white;
+
+  border-radius:16px;
+
+  padding:25px;
+
+  display:flex;
+
+  justify-content:space-around;
+
+  align-items:center;
+
+  box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+}
+
+.team{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
+}
+
+.team img{
+  width:90px;
+  height:90px;
+  object-fit:contain;
+}
+
+.team span{
+  font-weight:bold;
+  font-size:20px;
+}
+
+.vs{
+  text-align:center;
+}
+
+.vs strong{
+  display:block;
+  font-size:34px;
+  color:#004a99;
+}
+
+.vs small{
+  display:block;
+  margin-top:8px;
+  color:#666;
+  font-size:15px;
+}
+
+.calendar-section{
+
+  width:min(1100px,95%);
+
+  margin:30px auto;
+
+  background:white;
+
+  padding:20px;
+
+  border-radius:16px;
+
+  box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+}
+
+.fc-toolbar-title{
+  font-size:1.4rem !important;
+}
+
+@media(max-width:700px){
+
+.match-card{
+
+flex-direction:column;
+
+gap:25px;
+
+}
+
+.team img{
+
+width:70px;
+
+height:70px;
+
+}
+
 }
